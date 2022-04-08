@@ -17,6 +17,7 @@ while True:
       os.system("clear")
       print("You have chosen " + selected + "\n")
       exec(game.read())
+      #wasdwasdwasdwasd
   except FileNotFoundError:
     if(selected.isdigit()):
       print("Choose the name, not the number. I am too lazy to add this feature in")
