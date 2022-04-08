@@ -55,6 +55,7 @@ while True:
     destination = input("Where do you want to go to? (Electrical),(O2),(Cafeteria),(Admin) ")
     
   os.system("clear")
+  print("Going to " + destination)
   progressBar(5)
 
   if(random.randint(1,10) == 1):
@@ -75,7 +76,7 @@ while True:
   
   os.system("clear")
   
-  print("Doing tasks")
+  print("Doing tasks...")
   progressBar(5)
   
   if(random.randint(1,10) == 1):
